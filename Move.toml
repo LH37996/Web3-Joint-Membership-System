@@ -1,0 +1,16 @@
+[package]
+name = "MessagePublication"
+version = "1.0.0"
+authors = []
+
+[addresses]
+message_addr = "0x14b074246c40ae0852b87a328ab2f8de6923e19dee525d582a2a55127babbd01"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
